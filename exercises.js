@@ -27,7 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-
+var bango1 = 2;
+var bango2 = 3;
 
 /*
  * #2
@@ -44,7 +45,14 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
+function add(num1, num2){
+ 
+ return num1 + num2;
 
+}
+
+var sum = add(  );
+console.log("for function add solution: " + sum);
 
 /*
  * #3
@@ -59,6 +67,15 @@ console.log(testGreeting); // printing the output value of the function.
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
+
+function subtract(num1, num2){
+  return num1 - num2;
+
+}
+
+var difference = subtract(bango1, bango2);
+console.log(difference);
+
 
 
 
