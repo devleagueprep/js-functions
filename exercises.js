@@ -30,6 +30,7 @@ console.log(testGreeting); // printing the output value of the function.
 var bango1 = 2;
 var bango2 = 3;
 
+
 /*
  * #2
  * Function - add
@@ -45,14 +46,7 @@ var bango2 = 3;
  * Console.log `sum` to test your code.
 */
 
-function add(num1, num2){
- 
- return num1 + num2;
 
-}
-
-var sum = add(  );
-console.log("for function add solution: " + sum);
 
 /*
  * #3
@@ -68,13 +62,6 @@ console.log("for function add solution: " + sum);
  * Console.log `difference` to test your code.
 */ 
 
-function subtract(num1, num2){
-  return num1 - num2;
-
-}
-
-var difference = subtract(bango1, bango2);
-console.log(difference);
 
 
 
@@ -149,6 +136,8 @@ console.log(difference);
  * This function will multiply the values stored in the sum and product.
  * Console.log your result.  
 */
+
+
 
 
 
