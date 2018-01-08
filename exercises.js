@@ -66,7 +66,11 @@ console.log(sum);
  * Console.log `difference` to test your code.
 */ 
 
-
+function subtract(num1 , num2){
+	return num1-num2;
+}
+var subtract = subtract(bango1 , bango2);
+console.log(subtract);
 
 /*
  * #4
