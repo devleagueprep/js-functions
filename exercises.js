@@ -142,7 +142,11 @@ console.log(daDiva);
  * Console.log your results.
 */ 
 
-
+function checkDifference(x){
+	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos."
+}
+var difference = checkDifference(10);
+console.log(difference);
 
 /*
  * #8
