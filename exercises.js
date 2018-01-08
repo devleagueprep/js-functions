@@ -203,7 +203,16 @@ console.log("showResult" , showResult);
  * Console.log your result.
 */ 
 
+var bango3 = 2;
+var bango4 = 4;
+var bango5 = 5;
 
+function addThenSubtract(){
+	var sum = add(bango3 , bango4);
+	return subtract(sum , bango5);
+}
+var showResult = addThenSubtract();
+console.log("showResult" , showResult);
 
 /*
  * #11
