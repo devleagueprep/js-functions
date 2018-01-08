@@ -159,7 +159,12 @@ console.log(difference);
  * Console.log your result.  
 */
 
+function checkProduct(){
+	return sum * product;
+}
 
+var showResult = checkProduct();
+console.log("showResult" , showResult);
 
 /*
  * #9
