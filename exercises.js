@@ -69,8 +69,8 @@ console.log(sum);
 function subtract(num1 , num2){
 	return num1-num2;
 }
-var subtract = subtract(bango1 , bango2);
-console.log(subtract);
+var difference = subtract(bango1 , bango2);
+console.log(difference);
 
 /*
  * #4
@@ -86,6 +86,11 @@ console.log(subtract);
  * Console.log `product` to test your code.
 */
 
+function multiply(num1 , num2){
+	return num1*num2
+}
+var product = multiply(bango1 , bango2);
+console.log(product);
 
 /*
  * #5
