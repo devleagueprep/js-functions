@@ -45,6 +45,11 @@ var bango2 = 5;
  * Console.log `sum` to test your code.
 */
 
+function add(num1 , num2){
+	return num1+num2;
+}
+var testadd = add(5 , 10);
+console.log(testadd);
 
 
 /*
