@@ -177,6 +177,12 @@ console.log("showResult" , showResult);
  * Console.log your result.  
 */
 
+function checkQuotient(){
+	return product * quotient
+}
+var showResult = checkQuotient();
+console.log("showResult" , showResult);
+
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
