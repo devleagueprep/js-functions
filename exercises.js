@@ -48,7 +48,7 @@ var bango2 = 5;
 function add(num1 , num2){
 	return num1+num2;
 }
-var sum = add(5 , 10);
+var sum = add(bango1 , bango2);
 console.log(sum);
 
 
