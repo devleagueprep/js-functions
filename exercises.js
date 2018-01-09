@@ -127,7 +127,7 @@ console.log(quotient);
 function checkSum(x){
 	return "Mariah Cary has been married "  + x +  " amount of times."
 }
-var daDiva = checkSum(2);
+var daDiva = checkSum(sum);
 console.log(daDiva);
 
 /*
@@ -207,9 +207,9 @@ var bango3 = 2;
 var bango4 = 4;
 var bango5 = 5;
 
-function addThenSubtract(){
-	var sum = add(bango3 , bango4);
-	return subtract(sum , bango5);
+function addThenSubtract(num1, num2, num3){
+	var sum = add(num1 , num2);
+	return subtract(sum , num3);
 }
 var showResult = addThenSubtract();
 console.log("showResult" , showResult);
@@ -228,9 +228,9 @@ console.log("showResult" , showResult);
  * Console.log your result.
 */ 
 
-function multiplyThenDivide(){
-	var product = multiply(bango3, bango4);
-	return divide(product , bango5);
+function multiplyThenDivide(num1, num2, num3){
+	var product = multiply(num1, num2);
+	return divide(product , num3);
 }
 var showResult = multiplyThenDivide();
 console.log("showResult", showResult);
